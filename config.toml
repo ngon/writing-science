@@ -1,13 +1,14 @@
 baseURL = "http://example.com/"
 languageCode = "en-us"
-title = "Minimal"
+title = "writing science"
 theme = "minimal"
 disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = ""
+# ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
-    author = "Calin Tataru"
-    description = "Personal blog theme powered by Hugo"
+    author = "Natalia Gonzales"
+    description = "writing tips for academics"
     githubUsername = "#"
     accent = "red"
     showBorder = true
@@ -28,8 +29,8 @@ googleAnalytics = ""
     weight = 2
 
 [[menu.main]]
-    url = "/project/"
-    name = "Projects"
+    url = "/resources/"
+    name = "Resources"
     weight = 3
 
 # Social icons to be shown on the right-hand side of the navigation bar
@@ -37,26 +38,23 @@ googleAnalytics = ""
 # The list of available icons can be found at http://fontawesome.io/icons/
 
 [[menu.icon]]
-    url = "mailto:me@example.com"
+    url = "mailto:ngon@uchicago.edu"
     name = "envelope-o"
     weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/username/"
+    url = "https://github.com/ngon/"
     name = "github"
     weight = 2
 
 [[menu.icon]]
-    url = "https://twitter.com/username/"
+    url = "https://twitter.com/pteradactalia/"
     name = "twitter"
     weight = 3
 
 [[menu.icon]]
-    url = "https://www.linkedin.com/in/username/"
+    url = "https://www.linkedin.com/in/nmgonz/"
     name = "linkedin"
     weight = 4
 
-[[menu.icon]]
-    url = "https://www.stackoverflow.com/username/"
-    name = "stack-overflow"
-    weight = 5
+
