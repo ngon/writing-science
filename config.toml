@@ -2,9 +2,8 @@ baseURL = "http://example.com/"
 languageCode = "en-us"
 title = "writing science"
 theme = "minimal"
-# disqusShortname = "username" # delete this to disable disqus comments
+disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = ""
-# ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
     author = "Natalia Gonzales"
@@ -62,4 +61,7 @@ googleAnalytics = ""
     name = "linkedin"
     weight = 4
 
-
+[[menu.icon]]
+    url = "https://www.instagram.com/pteradactalia/"
+    name = "instagram"
+    weight = 5
